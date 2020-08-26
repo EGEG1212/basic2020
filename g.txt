@@ -1,0 +1,12 @@
+# Jupyter 노트북 용 gitignore 템플릿
+# 웹 사이트 : http://jupyter.org/
+
+.ipynb_checkpoints
+* / .ipynb_checkpoints / *
+
+# IPython
+프로필 _ 기본값 /
+ipython_config.py
+
+# 이전 ipynb_checkpoints 제거
+#    git rm -r .ipynb_checkpoints /
